@@ -1,4 +1,0 @@
-# CrowdSynergy-YOLO-meets-ByteTracker
-
-
-A method to count people or objects entering or exiting a certain area under certain conditions such as crossing an imaginary line using advanced one stage object detection YOLOv8. It is as-sumed that each object is counted and are not missed any object. Every bounding box that crosses a line in one way is defined as object going in and total count is incremented. Bounding box that crosses line in opposite direction is considered as object is going out and the total count should be decremented. The pro-posed method ensures that it has less computational overhead as well as no objects are missed by one stage detection. Here, the accuracy of bounding box of one stage object detection that demonstrates better detection and less false positives. This en-sures that not only all object detected are counted but also no object present in the feed is missed.
